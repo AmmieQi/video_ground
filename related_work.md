@@ -54,9 +54,11 @@
 
 ### Papers
 
-- [ ] **[ICCV'17]** Localizing Moments in Video with Natural Language, [paper](https://people.eecs.berkeley.edu/~lisa_anne/didemo/paper_arxiv.pdf)
+- [ ] **[ICCV'17]** **[MCN]** Localizing Moments in Video with Natural Language, [paper](https://people.eecs.berkeley.edu/~lisa_anne/didemo/paper_arxiv.pdf)
 
-- [ ] **[ICCV'17]** TALL: Temporal Activity Localization via Language Query, [paper](https://arxiv.org/abs/1705.02101)
+![MCN](docs/images/MCN.png)
+
+- [ ] **[ICCV'17]** **[CTRL]** TALL: Temporal Activity Localization via Language Query, [paper](https://arxiv.org/abs/1705.02101)
 
 - [ ] **[EMNLP'18]** Localizing Moments in Video with Temporal Language
 - [ ] **[SIGIR'18]** Attentive Moment Retrieval in Videos
@@ -92,3 +94,11 @@ Localization with Natural Language, [paper](https://arxiv.org/abs/1908.03846)
 * Use external data: image caption data or video caption data
 * Unsupervised Video Grounding
 * sss
+
+### Video Modeling
+1. Non-local Neural Networks. [paper](https://arxiv.org/pdf/1711.07971.pdf), [caffe2](https://github.com/facebookresearch/video-nonlocal-net), [pytorch](https://github.com/AlexHex7/Non-local_pytorch)
+
+
+### Materials
+1. Zhihu: https://zhuanlan.zhihu.com/p/35235732
+1. Zhihu: https://www.zhihu.com/question/64021205
