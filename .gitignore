@@ -126,3 +126,5 @@ dmypy.json
 .idea/*
 baseline/TALL/data/
 data/
+dataset/20bn-jester-v1/20bn-jester-v1-00
+dataset/activity_net.v1-3.min.json

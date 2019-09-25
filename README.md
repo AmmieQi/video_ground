@@ -54,26 +54,21 @@
 
 ### Papers
 
-1. - [ ] **[ICCV'17]** **[MCN]** Localizing Moments in Video with Natural Language, [paper](https://people.eecs.berkeley.edu/~lisa_anne/didemo/paper_arxiv.pdf)
-<!-- ![MCN](docs/images/MCN.png) -->
-1. - [ ] **[ICCV'17]** **[CTRL]** TALL: Temporal Activity Localization via Language Query, [paper](https://arxiv.org/abs/1705.02101)
+1. - [x] **[ICCV'17]** **[MCN]** Localizing Moments in Video with Natural Language, [paper](https://people.eecs.berkeley.edu/~lisa_anne/didemo/paper_arxiv.pdf)
 
-1. - [ ] **[EMNLP'18]** Localizing Moments in Video with Temporal Language
-1. - [ ] **[SIGIR'18]** Attentive Moment Retrieval in Videos
-1. - [ ] **[Arxiv'18]** Weakly-Supervised Video Object Grounding from Text by Loss Weighting and Object Interaction
+1. - [x] **[ICCV'17]** **[CTRL]** TALL: Temporal Activity Localization via Language Query, [paper](https://arxiv.org/abs/1705.02101)
+
+1. - [x] **[EMNLP'18]** Localizing Moments in Video with Temporal Language [paper](https://arxiv.org/pdf/1809.01337.pdf)
+> Follow the previous papers: two ICCV paper. The only difference is to add context moments
+
+1. - [ ] **[SIGIR'18]** Attentive Moment Retrieval in Videos [paper](https://dl.acm.org/citation.cfm?id=3210003)
 
 1. - [ ] **[CVPR'19]** MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment [paper](https://arxiv.org/abs/1812.00087)
-1. - [ ] **[CVPR'19]** Language-driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model
+1. - [ ] **[CVPR'19]** Language-driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model, [paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Language-Driven_Temporal_Activity_Localization_A_Semantic_Matching_Reinforcement_Learning_Model_CVPR_2019_paper.html)
 
-1. - [ ] **[Arxiv'19]** Temporal Localization of Moments in Video Collections with Natural Language, [paper](https://arxiv.org/abs/1907.12763)
+1. - [ ] **[Arxiv'19]** **[Video Collections]** Temporal Localization of Moments in Video Collections with Natural Language, [paper](https://arxiv.org/abs/1907.12763)
 1. - [ ] **[NAACL'19]** ExCL: Extractive Clip Localization Using Natural Language Descriptions, [paper](https://arxiv.org/pdf/1904.02755.pdf)
 1. - [ ] **[SIGIR'19]** Cross-Modal Interaction Networks for Query-Based Moment Retrieval in Videos, [paper](https://arxiv.org/pdf/1906.02497.pdf), [code](https://github.com/ikuinen/CMIN_moment_retrieval)
-1. - [ ] **[Arxiv'19]** TVQA+: Spatio-Temporal Grounding for Video Question Answering
-
-1. - [ ] **[Arxiv'19]** Exploiting Temporal Relationships in Video Moment Localization with Natural Language
-
-1. - [ ] **[IJCAI'19]** Localizing Unseen Activities in Video via Image Query, [paper](https://arxiv.org/pdf/1906.12165.pdf)
-> grounding via image not natural language
 
 1. - [ ] **[Arxiv'19]** Tripping through time: Efficient Localization of Activities in Videos, [paper](https://arxiv.org/pdf/1904.09936.pdf)
 
@@ -86,16 +81,36 @@ Localization with Natural Language, [paper](https://arxiv.org/abs/1908.03846)
 1. - [x] **[ACL'19]**  Weakly-Supervised Spatio-Temporally Grounding Natural Sentence in Video, [paper](https://arxiv.org/pdf/1906.02549.pdf)
 1. - [x] **[EMNLP'19]** WSLLN: Weakly Supervised Natural Language Localization Networks, [paper](https://arxiv.org/abs/1909.00239)
 1. - [x] **[CVPR'19]** Weakly Supervised Video Moment Retrieval from Text Queries, [paper](https://arxiv.org/pdf/1904.03282.pdf)
+1. - [ ] **[Arxiv'18]** **[Object Grounding]** Weakly-Supervised Video Object Grounding from Text by Loss Weighting and Object Interaction [paper](https://arxiv.org/abs/1805.02834)
+
+  #### Others
+1. - [ ] **[Arxiv'19]** TVQA+: Spatio-Temporal Grounding for Video Question Answering
+1. - [ ] **[IJCAI'19]** Localizing Unseen Activities in Video via Image Query, [paper](https://arxiv.org/pdf/1906.12165.pdf)
+> grounding via image not natural language
 
 ### Research Areas
 * Use external data: image caption data or video caption data
-* Unsupervised Video Grounding
-* sss
+* Few-shot or zero shot learning
+* Semi-Supervised Video Grounding: The input of the problem is a large set of unlabeled videos and a small set of labeled video (with query and temporal interval)
+* Unsupervised Video Grounding: The input of the problem is unlabeled videos without any query and temporal interval.
+* Adversarial Learning / Adversarial Attack
+
 
 ### Video Modeling
 1. Non-local Neural Networks. [paper](https://arxiv.org/pdf/1711.07971.pdf), [caffe2](https://github.com/facebookresearch/video-nonlocal-net), [pytorch](https://github.com/AlexHex7/Non-local_pytorch)
 
+1. 3D-ResNet: Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?. [paper](https://arxiv.org/abs/1711.09577), [code](https://github.com/kenshohara/3D-ResNets-PyTorch)
 
 ### Materials
+1. Github: https://github.com/TheShadow29/awesome-grounding
 1. Zhihu: https://zhuanlan.zhihu.com/p/35235732
 1. Zhihu: https://www.zhihu.com/question/64021205
+
+1. 3D-ResNet: https://github.com/kenshohara/3D-ResNets-PyTorch
+---------------
+#### Details of Papers
+
+###### **[ICCV'17]** **[MCN]** Localizing Moments in Video with Natural Language
+<img src="docs/images/MCN.png" alt="drawing" width="600"/>
+
+Negative moments can from intra-video or inter-video
