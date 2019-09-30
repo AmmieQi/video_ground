@@ -62,6 +62,7 @@
 > Follow the previous papers: two ICCV paper. The only difference is to add context moments
 
 1. - [ ] **[SIGIR'18]** Attentive Moment Retrieval in Videos [paper](https://dl.acm.org/citation.cfm?id=3210003)
+> generate a set of moments candidate, which use varied moment length with 80% overlap. Cons: extremely time-consuming. The attention and cross-modal fusion are not novel but can be referenced when design any attention based model.
 
 1. - [ ] **[CVPR'19]** MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment [paper](https://arxiv.org/abs/1812.00087)
 1. - [ ] **[CVPR'19]** Language-driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model, [paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Language-Driven_Temporal_Activity_Localization_A_Semantic_Matching_Reinforcement_Learning_Model_CVPR_2019_paper.html)
