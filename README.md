@@ -58,23 +58,27 @@
 
 1. - [x] **[ICCV'17]** **[CTRL]** TALL: Temporal Activity Localization via Language Query, [paper](https://arxiv.org/abs/1705.02101)
 
-1. - [x] **[EMNLP'18]** Localizing Moments in Video with Temporal Language [paper](https://arxiv.org/pdf/1809.01337.pdf)
-> Follow the previous papers: two ICCV paper. The only difference is to add context moments
-1. - [ ] **[SIGIR'18]** Attentive Moment Retrieval in Videos [paper](https://dl.acm.org/citation.cfm?id=3210003)
-> generate a set of moments candidate, which use varied moment length with 80% overlap. Cons: extremely time-consuming. The attention and cross-modal fusion are not novel but can be referenced when design any attention based model.
+1. - [x] **[EMNLP'18]** Localizing Moments in Video with Temporal Language [paper](https://arxiv.org/pdf/1809.01337.pdf), *Follow the previous papers: two ICCV paper. The only difference is to add context moments*
+1. - [ ] **[SIGIR'18]** Attentive Moment Retrieval in Videos [paper](https://dl.acm.org/citation.cfm?id=3210003),
+
+    *generate a set of moments candidate, which use varied moment length with 80% overlap. Cons: extremely time-consuming. The attention and cross-modal fusion are not novel but can be referenced when design any attention based model.*
+
 1. - [ ] **[CVPR'19]** MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment [paper](https://arxiv.org/abs/1812.00087)
 1. - [ ] **[CVPR'19]** Language-driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model, [paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Language-Driven_Temporal_Activity_Localization_A_Semantic_Matching_Reinforcement_Learning_Model_CVPR_2019_paper.html)
 
-1. - [ ] **[Arxiv'19]** **[Video Collections]** Temporal Localization of Moments in Video Collections with Natural Language, [paper](https://arxiv.org/abs/1907.12763)
+*. - [ ] **[Arxiv'19]** **[Video Collections]** Temporal Localization of Moments in Video Collections with Natural Language, [paper](https://arxiv.org/abs/1907.12763)
 1. - [ ] **[NAACL'19]** ExCL: Extractive Clip Localization Using Natural Language Descriptions, [paper](https://arxiv.org/pdf/1904.02755.pdf)
 1. - [ ] **[SIGIR'19]** Cross-Modal Interaction Networks for Query-Based Moment Retrieval in Videos, [paper](https://arxiv.org/pdf/1906.02497.pdf), [code](https://github.com/ikuinen/CMIN_moment_retrieval)
 
-1. - [ ] **[Arxiv'19]** Tripping through time: Efficient Localization of Activities in Videos, [paper](https://arxiv.org/pdf/1904.09936.pdf)
+1. - [x] **[CVPR'19]** Tripping through time: Efficient Localization of Activities in Videos, [paper](https://arxiv.org/pdf/1904.09936.pdf)
 
 1. - [ ] **[MM'19]** Exploiting Temporal Relationships in Video Moment
 Localization with Natural Language, [paper](https://arxiv.org/abs/1908.03846)
 
-1. - [ ] **[Arxiv'19]** Proposal-free Temporal Moment Localization of a Natural-Language Query in Video using Guided Attention, [paper](https://arxiv.org/abs/1908.07236)
+1. - [x] **[Arxiv'19]** Proposal-free Temporal Moment Localization of a Natural-Language Query in Video using Guided Attention, [paper](https://arxiv.org/abs/1908.07236)
+
+1. - [ ] **[Arxiv'19]** Temporally Grounding Language Queries in Videos by
+Contextual Boundary-aware Prediction, [paper](https://arxiv.org/pdf/1909.05010.pdf)
 
   #### Weakly-Supervised
 1. - [x] **[ACL'19]**  Weakly-Supervised Spatio-Temporally Grounding Natural Sentence in Video, [paper](https://arxiv.org/pdf/1906.02549.pdf)
@@ -85,7 +89,8 @@ Localization with Natural Language, [paper](https://arxiv.org/abs/1908.03846)
   #### Others
 1. - [ ] **[Arxiv'19]** TVQA+: Spatio-Temporal Grounding for Video Question Answering
 1. - [ ] **[IJCAI'19]** Localizing Unseen Activities in Video via Image Query, [paper](https://arxiv.org/pdf/1906.12165.pdf)
-> grounding via image not natural language
+
+*grounding via image not natural language*
 
 ### Research Areas
 * Use external data: image caption data or video caption data
@@ -106,6 +111,11 @@ Localization with Natural Language, [paper](https://arxiv.org/abs/1908.03846)
 1. Zhihu: https://www.zhihu.com/question/64021205
 
 1. 3D-ResNet: https://github.com/kenshohara/3D-ResNets-PyTorch
+
+---------------
+#### Details of Efficiency
+1. Modeling object interaction can significantly improves accuracy for action recognition
+
 ---------------
 #### Details of Papers
 
