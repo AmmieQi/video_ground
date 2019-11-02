@@ -109,11 +109,13 @@ Contextual Boundary-aware Prediction, [paper](https://arxiv.org/pdf/1909.05010.p
 1. 3D-ResNet: Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?. [paper](https://arxiv.org/abs/1711.09577), [code](https://github.com/kenshohara/3D-ResNets-PyTorch)
 
 ### Materials
+1. https://github.com/iworldtong/Awesome-Grounding-Natural-Language-in-Video
+1. Blog: http://iworldtong.com/2019/09/09/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86-Temporal-Sentence-Localization-in-Video%E6%96%B9%E5%90%91%E8%BF%91%E6%9C%9F%E6%80%BB%E7%BB%93/
 1. Github: https://github.com/TheShadow29/awesome-grounding
 1. Zhihu: https://zhuanlan.zhihu.com/p/35235732
 1. Zhihu: https://www.zhihu.com/question/64021205
-
 1. 3D-ResNet: https://github.com/kenshohara/3D-ResNets-PyTorch
+
 
 ---------------
 #### Details of Efficiency
